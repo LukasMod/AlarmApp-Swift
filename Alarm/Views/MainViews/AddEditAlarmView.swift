@@ -28,7 +28,7 @@ struct AddEditAlarmView: View {
         }
         .onAppear {
             DispatchQueue.main
-                .asyncAfter(deadline: .now() + 3.0) {
+                .asyncAfter(deadline: .now() + 2.0) {
                     withAnimation {
                         showYouDidItView = false
                     }

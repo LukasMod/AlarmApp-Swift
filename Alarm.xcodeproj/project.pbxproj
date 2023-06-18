@@ -26,6 +26,8 @@
 		C43AC0E52A3F002A001070CD /* TheToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0E42A3F002A001070CD /* TheToggleView.swift */; };
 		C43AC0E72A3F0892001070CD /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0E62A3F0892001070CD /* TimePicker.swift */; };
 		C43AC0E92A3F0B43001070CD /* SelectActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */; };
+		C43AC0EB2A3F231F001070CD /* ListOfTheAlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0EA2A3F231F001070CD /* ListOfTheAlarmsView.swift */; };
+		C43AC0ED2A3F6B44001070CD /* AlarmRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0EC2A3F6B44001070CD /* AlarmRowView.swift */; };
 		C4443E802A2666E70054FFF2 /* EnableNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E7F2A2666E70054FFF2 /* EnableNotifications.swift */; };
 		C4443E822A2668310054FFF2 /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E812A2668310054FFF2 /* MainGradient.swift */; };
 		C4443E842A2671770054FFF2 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E832A2671770054FFF2 /* ButtonView.swift */; };
@@ -83,6 +85,8 @@
 		C43AC0E42A3F002A001070CD /* TheToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheToggleView.swift; sourceTree = "<group>"; };
 		C43AC0E62A3F0892001070CD /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 		C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityView.swift; sourceTree = "<group>"; };
+		C43AC0EA2A3F231F001070CD /* ListOfTheAlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfTheAlarmsView.swift; sourceTree = "<group>"; };
+		C43AC0EC2A3F6B44001070CD /* AlarmRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRowView.swift; sourceTree = "<group>"; };
 		C4443E7F2A2666E70054FFF2 /* EnableNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotifications.swift; sourceTree = "<group>"; };
 		C4443E812A2668310054FFF2 /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
 		C4443E832A2671770054FFF2 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
@@ -270,6 +274,7 @@
 			children = (
 				C404E30F2A25EB7800790C6F /* MainAlarmView.swift */,
 				C4BE59582A2623C000D3C489 /* SplashScreenView.swift */,
+				C43AC0EA2A3F231F001070CD /* ListOfTheAlarmsView.swift */,
 				C43AC0DE2A3DCFCA001070CD /* ToBedWakeUpView.swift */,
 				C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */,
 				C4443E852A2672D20054FFF2 /* AboutView.swift */,
@@ -295,6 +300,7 @@
 				C404E3382A25F7DF00790C6F /* TimeOfDayIcon.swift */,
 				C43AC0E02A3EFD82001070CD /* CancelSaveAlarm.swift */,
 				C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */,
+				C43AC0EC2A3F6B44001070CD /* AlarmRowView.swift */,
 				C43AC0E22A3EFFBA001070CD /* AlarmToggleView.swift */,
 				C43AC0E42A3F002A001070CD /* TheToggleView.swift */,
 				C43AC0E62A3F0892001070CD /* TimePicker.swift */,
@@ -403,12 +409,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43AC0EB2A3F231F001070CD /* ListOfTheAlarmsView.swift in Sources */,
 				C4443E802A2666E70054FFF2 /* EnableNotifications.swift in Sources */,
 				C4BE594C2A261FA300D3C489 /* Play Sound.swift in Sources */,
 				C404E3362A25F74100790C6F /* Image Constants.swift in Sources */,
 				C43AC0DD2A3C9C77001070CD /* YouDidItView.swift in Sources */,
 				C404E3392A25F7DF00790C6F /* TimeOfDayIcon.swift in Sources */,
 				C4443E862A2672D20054FFF2 /* AboutView.swift in Sources */,
+				C43AC0ED2A3F6B44001070CD /* AlarmRowView.swift in Sources */,
 				C43AC0E72A3F0892001070CD /* TimePicker.swift in Sources */,
 				C43AC0E52A3F002A001070CD /* TheToggleView.swift in Sources */,
 				C4BE594A2A261FA300D3C489 /* Sound Constants.swift in Sources */,
