@@ -1,6 +1,6 @@
 "alarm" = "alarm";
-"on" = "włączony";
-"off" = "wyłączony";
+"on" = "on";
+"off" = "off";
 "create" = "utwórz";
 "Add Alarm" = "Dodaj alarm";
 "Alarm List" = "Lista alarmów";

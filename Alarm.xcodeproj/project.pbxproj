@@ -19,6 +19,45 @@
 		C404E3372A25F74100790C6F /* Activity Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C404E3332A25F74100790C6F /* Activity Constants.swift */; };
 		C404E3392A25F7DF00790C6F /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C404E3382A25F7DF00790C6F /* TimeOfDayIcon.swift */; };
 		C404E33B2A25F83300790C6F /* TimeAndDateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C404E33A2A25F83300790C6F /* TimeAndDateSupport.swift */; };
+		C43AC0DD2A3C9C77001070CD /* YouDidItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0DC2A3C9C77001070CD /* YouDidItView.swift */; };
+		C43AC0DF2A3DCFCA001070CD /* ToBedWakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0DE2A3DCFCA001070CD /* ToBedWakeUpView.swift */; };
+		C43AC0E12A3EFD82001070CD /* CancelSaveAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0E02A3EFD82001070CD /* CancelSaveAlarm.swift */; };
+		C43AC0E32A3EFFBA001070CD /* AlarmToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0E22A3EFFBA001070CD /* AlarmToggleView.swift */; };
+		C43AC0E52A3F002A001070CD /* TheToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0E42A3F002A001070CD /* TheToggleView.swift */; };
+		C43AC0E72A3F0892001070CD /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0E62A3F0892001070CD /* TimePicker.swift */; };
+		C43AC0E92A3F0B43001070CD /* SelectActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */; };
+		C4443E802A2666E70054FFF2 /* EnableNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E7F2A2666E70054FFF2 /* EnableNotifications.swift */; };
+		C4443E822A2668310054FFF2 /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E812A2668310054FFF2 /* MainGradient.swift */; };
+		C4443E842A2671770054FFF2 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E832A2671770054FFF2 /* ButtonView.swift */; };
+		C4443E862A2672D20054FFF2 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E852A2672D20054FFF2 /* AboutView.swift */; };
+		C4443E882A270EDD0054FFF2 /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */; };
+		C4BE59292A26174700D3C489 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE59282A26174700D3C489 /* TimeModel.swift */; };
+		C4BE592B2A261BFF00D3C489 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE592A2A261BFF00D3C489 /* AlarmModel.swift */; };
+		C4BE59422A261FA300D3C489 /* forest with cuckoo birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE592C2A261FA100D3C489 /* forest with cuckoo birds.mp3 */; };
+		C4BE59432A261FA300D3C489 /* soft rain ambient.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE592D2A261FA100D3C489 /* soft rain ambient.mp3 */; };
+		C4BE59442A261FA300D3C489 /* tennessee_whiskey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE592E2A261FA100D3C489 /* tennessee_whiskey.mp3 */; };
+		C4BE59452A261FA300D3C489 /* peanuts_ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE592F2A261FA100D3C489 /* peanuts_ringtone.mp3 */; };
+		C4BE59462A261FA300D3C489 /* owl hooting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59302A261FA100D3C489 /* owl hooting.mp3 */; };
+		C4BE59472A261FA300D3C489 /* bird forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59312A261FA100D3C489 /* bird forest.mp3 */; };
+		C4BE59482A261FA300D3C489 /* bird voices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59322A261FA100D3C489 /* bird voices.mp3 */; };
+		C4BE59492A261FA300D3C489 /* forest birds sweden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59332A261FA200D3C489 /* forest birds sweden.mp3 */; };
+		C4BE594A2A261FA300D3C489 /* Sound Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE59342A261FA200D3C489 /* Sound Constants.swift */; };
+		C4BE594B2A261FA300D3C489 /* Sound Wake up.aiff in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59352A261FA200D3C489 /* Sound Wake up.aiff */; };
+		C4BE594C2A261FA300D3C489 /* Play Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE59362A261FA200D3C489 /* Play Sound.swift */; };
+		C4BE594D2A261FA300D3C489 /* screeching owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59372A261FA200D3C489 /* screeching owl.mp3 */; };
+		C4BE594E2A261FA300D3C489 /* my_baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59382A261FA200D3C489 /* my_baby.mp3 */; };
+		C4BE594F2A261FA300D3C489 /* waterfall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59392A261FA200D3C489 /* waterfall.mp3 */; };
+		C4BE59502A261FA300D3C489 /* the beat of nature.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE593A2A261FA200D3C489 /* the beat of nature.mp3 */; };
+		C4BE59512A261FA300D3C489 /* turkey_time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE593B2A261FA200D3C489 /* turkey_time.mp3 */; };
+		C4BE59522A261FA300D3C489 /* welcome_to_my_house.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE593C2A261FA300D3C489 /* welcome_to_my_house.mp3 */; };
+		C4BE59532A261FA300D3C489 /* mr_grinch_ravens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE593D2A261FA300D3C489 /* mr_grinch_ravens.mp3 */; };
+		C4BE59542A261FA300D3C489 /* christmas_bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE593E2A261FA300D3C489 /* christmas_bells.mp3 */; };
+		C4BE59552A261FA300D3C489 /* wasted_on_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE593F2A261FA300D3C489 /* wasted_on_u.mp3 */; };
+		C4BE59562A261FA300D3C489 /* Lagrima.aiff in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59402A261FA300D3C489 /* Lagrima.aiff */; };
+		C4BE59572A261FA300D3C489 /* night ambience.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE59412A261FA300D3C489 /* night ambience.mp3 */; };
+		C4BE59592A2623C000D3C489 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE59582A2623C000D3C489 /* SplashScreenView.swift */; };
+		C4BE595B2A2624FA00D3C489 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE595A2A2624FA00D3C489 /* FourCoolCircles.swift */; };
+		C4BE595F2A26370F00D3C489 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE595E2A26370F00D3C489 /* CoolTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +76,47 @@
 		C404E3332A25F74100790C6F /* Activity Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Activity Constants.swift"; sourceTree = "<group>"; };
 		C404E3382A25F7DF00790C6F /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
 		C404E33A2A25F83300790C6F /* TimeAndDateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupport.swift; sourceTree = "<group>"; };
+		C43AC0DC2A3C9C77001070CD /* YouDidItView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouDidItView.swift; sourceTree = "<group>"; };
+		C43AC0DE2A3DCFCA001070CD /* ToBedWakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBedWakeUpView.swift; sourceTree = "<group>"; };
+		C43AC0E02A3EFD82001070CD /* CancelSaveAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelSaveAlarm.swift; sourceTree = "<group>"; };
+		C43AC0E22A3EFFBA001070CD /* AlarmToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmToggleView.swift; sourceTree = "<group>"; };
+		C43AC0E42A3F002A001070CD /* TheToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheToggleView.swift; sourceTree = "<group>"; };
+		C43AC0E62A3F0892001070CD /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityView.swift; sourceTree = "<group>"; };
+		C4443E7F2A2666E70054FFF2 /* EnableNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotifications.swift; sourceTree = "<group>"; };
+		C4443E812A2668310054FFF2 /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
+		C4443E832A2671770054FFF2 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		C4443E852A2672D20054FFF2 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
+		C4BE59282A26174700D3C489 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		C4BE592A2A261BFF00D3C489 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		C4BE592C2A261FA100D3C489 /* forest with cuckoo birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "forest with cuckoo birds.mp3"; sourceTree = "<group>"; };
+		C4BE592D2A261FA100D3C489 /* soft rain ambient.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "soft rain ambient.mp3"; sourceTree = "<group>"; };
+		C4BE592E2A261FA100D3C489 /* tennessee_whiskey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tennessee_whiskey.mp3; sourceTree = "<group>"; };
+		C4BE592F2A261FA100D3C489 /* peanuts_ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = peanuts_ringtone.mp3; sourceTree = "<group>"; };
+		C4BE59302A261FA100D3C489 /* owl hooting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "owl hooting.mp3"; sourceTree = "<group>"; };
+		C4BE59312A261FA100D3C489 /* bird forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bird forest.mp3"; sourceTree = "<group>"; };
+		C4BE59322A261FA100D3C489 /* bird voices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bird voices.mp3"; sourceTree = "<group>"; };
+		C4BE59332A261FA200D3C489 /* forest birds sweden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "forest birds sweden.mp3"; sourceTree = "<group>"; };
+		C4BE59342A261FA200D3C489 /* Sound Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sound Constants.swift"; sourceTree = "<group>"; };
+		C4BE59352A261FA200D3C489 /* Sound Wake up.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "Sound Wake up.aiff"; sourceTree = "<group>"; };
+		C4BE59362A261FA200D3C489 /* Play Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Play Sound.swift"; sourceTree = "<group>"; };
+		C4BE59372A261FA200D3C489 /* screeching owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "screeching owl.mp3"; sourceTree = "<group>"; };
+		C4BE59382A261FA200D3C489 /* my_baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = my_baby.mp3; sourceTree = "<group>"; };
+		C4BE59392A261FA200D3C489 /* waterfall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterfall.mp3; sourceTree = "<group>"; };
+		C4BE593A2A261FA200D3C489 /* the beat of nature.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "the beat of nature.mp3"; sourceTree = "<group>"; };
+		C4BE593B2A261FA200D3C489 /* turkey_time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = turkey_time.mp3; sourceTree = "<group>"; };
+		C4BE593C2A261FA300D3C489 /* welcome_to_my_house.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = welcome_to_my_house.mp3; sourceTree = "<group>"; };
+		C4BE593D2A261FA300D3C489 /* mr_grinch_ravens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mr_grinch_ravens.mp3; sourceTree = "<group>"; };
+		C4BE593E2A261FA300D3C489 /* christmas_bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = christmas_bells.mp3; sourceTree = "<group>"; };
+		C4BE593F2A261FA300D3C489 /* wasted_on_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wasted_on_u.mp3; sourceTree = "<group>"; };
+		C4BE59402A261FA300D3C489 /* Lagrima.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Lagrima.aiff; sourceTree = "<group>"; };
+		C4BE59412A261FA300D3C489 /* night ambience.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "night ambience.mp3"; sourceTree = "<group>"; };
+		C4BE59582A2623C000D3C489 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		C4BE595A2A2624FA00D3C489 /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
+		C4BE595C2A2636F200D3C489 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C4BE595D2A2636F200D3C489 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C4BE595E2A26370F00D3C489 /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +158,6 @@
 				C404E31D2A25F0AB00790C6F /* Local Notifications */,
 				C404E31C2A25F09F00790C6F /* Sounds */,
 				C404E30D2A25EB7800790C6F /* AlarmApp.swift */,
-				C404E30F2A25EB7800790C6F /* MainAlarmView.swift */,
 				C404E3112A25EB7A00790C6F /* Assets.xcassets */,
 				C404E3132A25EB7A00790C6F /* Alarm.entitlements */,
 				C404E3142A25EB7A00790C6F /* Preview Content */,
@@ -98,6 +177,28 @@
 		C404E31C2A25F09F00790C6F /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				C4BE59312A261FA100D3C489 /* bird forest.mp3 */,
+				C4BE59322A261FA100D3C489 /* bird voices.mp3 */,
+				C4BE593E2A261FA300D3C489 /* christmas_bells.mp3 */,
+				C4BE59332A261FA200D3C489 /* forest birds sweden.mp3 */,
+				C4BE592C2A261FA100D3C489 /* forest with cuckoo birds.mp3 */,
+				C4BE59402A261FA300D3C489 /* Lagrima.aiff */,
+				C4BE593D2A261FA300D3C489 /* mr_grinch_ravens.mp3 */,
+				C4BE59382A261FA200D3C489 /* my_baby.mp3 */,
+				C4BE59412A261FA300D3C489 /* night ambience.mp3 */,
+				C4BE59302A261FA100D3C489 /* owl hooting.mp3 */,
+				C4BE592F2A261FA100D3C489 /* peanuts_ringtone.mp3 */,
+				C4BE59362A261FA200D3C489 /* Play Sound.swift */,
+				C4BE59372A261FA200D3C489 /* screeching owl.mp3 */,
+				C4BE592D2A261FA100D3C489 /* soft rain ambient.mp3 */,
+				C4BE59342A261FA200D3C489 /* Sound Constants.swift */,
+				C4BE59352A261FA200D3C489 /* Sound Wake up.aiff */,
+				C4BE592E2A261FA100D3C489 /* tennessee_whiskey.mp3 */,
+				C4BE593A2A261FA200D3C489 /* the beat of nature.mp3 */,
+				C4BE593B2A261FA200D3C489 /* turkey_time.mp3 */,
+				C4BE593F2A261FA300D3C489 /* wasted_on_u.mp3 */,
+				C4BE59392A261FA200D3C489 /* waterfall.mp3 */,
+				C4BE593C2A261FA300D3C489 /* welcome_to_my_house.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -120,6 +221,8 @@
 		C404E31F2A25F0C000790C6F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				C4BE595C2A2636F200D3C489 /* WorkSans-Italic-VariableFont_wght.ttf */,
+				C4BE595D2A2636F200D3C489 /* WorkSans-VariableFont_wght.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -156,6 +259,8 @@
 		C404E3232A25F0DE00790C6F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C4BE59282A26174700D3C489 /* TimeModel.swift */,
+				C4BE592A2A261BFF00D3C489 /* AlarmModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +268,11 @@
 		C404E3242A25F0F000790C6F /* MainViews */ = {
 			isa = PBXGroup;
 			children = (
+				C404E30F2A25EB7800790C6F /* MainAlarmView.swift */,
+				C4BE59582A2623C000D3C489 /* SplashScreenView.swift */,
+				C43AC0DE2A3DCFCA001070CD /* ToBedWakeUpView.swift */,
+				C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */,
+				C4443E852A2672D20054FFF2 /* AboutView.swift */,
 			);
 			path = MainViews;
 			sourceTree = "<group>";
@@ -170,6 +280,8 @@
 		C404E3252A25F0F700790C6F /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				C43AC0DC2A3C9C77001070CD /* YouDidItView.swift */,
+				C4443E7F2A2666E70054FFF2 /* EnableNotifications.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -178,7 +290,16 @@
 			isa = PBXGroup;
 			children = (
 				C404E3282A25F14000790C6F /* GrayedTextView.swift */,
+				C4443E812A2668310054FFF2 /* MainGradient.swift */,
+				C4BE595E2A26370F00D3C489 /* CoolTextView.swift */,
 				C404E3382A25F7DF00790C6F /* TimeOfDayIcon.swift */,
+				C43AC0E02A3EFD82001070CD /* CancelSaveAlarm.swift */,
+				C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */,
+				C43AC0E22A3EFFBA001070CD /* AlarmToggleView.swift */,
+				C43AC0E42A3F002A001070CD /* TheToggleView.swift */,
+				C43AC0E62A3F0892001070CD /* TimePicker.swift */,
+				C4BE595A2A2624FA00D3C489 /* FourCoolCircles.swift */,
+				C4443E832A2671770054FFF2 /* ButtonView.swift */,
 			);
 			path = SupportingViews;
 			sourceTree = "<group>";
@@ -249,9 +370,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BE594B2A261FA300D3C489 /* Sound Wake up.aiff in Resources */,
+				C4BE59452A261FA300D3C489 /* peanuts_ringtone.mp3 in Resources */,
+				C4BE59552A261FA300D3C489 /* wasted_on_u.mp3 in Resources */,
+				C4BE59492A261FA300D3C489 /* forest birds sweden.mp3 in Resources */,
+				C4BE59442A261FA300D3C489 /* tennessee_whiskey.mp3 in Resources */,
 				C404E3162A25EB7A00790C6F /* Preview Assets.xcassets in Resources */,
+				C4BE59502A261FA300D3C489 /* the beat of nature.mp3 in Resources */,
+				C4BE594F2A261FA300D3C489 /* waterfall.mp3 in Resources */,
+				C4BE594D2A261FA300D3C489 /* screeching owl.mp3 in Resources */,
+				C4BE59532A261FA300D3C489 /* mr_grinch_ravens.mp3 in Resources */,
+				C4BE59482A261FA300D3C489 /* bird voices.mp3 in Resources */,
+				C4BE59572A261FA300D3C489 /* night ambience.mp3 in Resources */,
+				C4BE59522A261FA300D3C489 /* welcome_to_my_house.mp3 in Resources */,
+				C4BE59432A261FA300D3C489 /* soft rain ambient.mp3 in Resources */,
+				C4BE59542A261FA300D3C489 /* christmas_bells.mp3 in Resources */,
+				C4BE59512A261FA300D3C489 /* turkey_time.mp3 in Resources */,
+				C4BE59422A261FA300D3C489 /* forest with cuckoo birds.mp3 in Resources */,
 				C404E32C2A25F65C00790C6F /* Localizable.strings in Resources */,
+				C4BE594E2A261FA300D3C489 /* my_baby.mp3 in Resources */,
 				C404E3122A25EB7A00790C6F /* Assets.xcassets in Resources */,
+				C4BE59562A261FA300D3C489 /* Lagrima.aiff in Resources */,
+				C4BE59462A261FA300D3C489 /* owl hooting.mp3 in Resources */,
+				C4BE59472A261FA300D3C489 /* bird forest.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,15 +403,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4443E802A2666E70054FFF2 /* EnableNotifications.swift in Sources */,
+				C4BE594C2A261FA300D3C489 /* Play Sound.swift in Sources */,
 				C404E3362A25F74100790C6F /* Image Constants.swift in Sources */,
+				C43AC0DD2A3C9C77001070CD /* YouDidItView.swift in Sources */,
 				C404E3392A25F7DF00790C6F /* TimeOfDayIcon.swift in Sources */,
+				C4443E862A2672D20054FFF2 /* AboutView.swift in Sources */,
+				C43AC0E72A3F0892001070CD /* TimePicker.swift in Sources */,
+				C43AC0E52A3F002A001070CD /* TheToggleView.swift in Sources */,
+				C4BE594A2A261FA300D3C489 /* Sound Constants.swift in Sources */,
 				C404E33B2A25F83300790C6F /* TimeAndDateSupport.swift in Sources */,
+				C43AC0E32A3EFFBA001070CD /* AlarmToggleView.swift in Sources */,
+				C43AC0E92A3F0B43001070CD /* SelectActivityView.swift in Sources */,
+				C4443E882A270EDD0054FFF2 /* AddEditAlarmView.swift in Sources */,
 				C404E3352A25F74100790C6F /* Color Constants.swift in Sources */,
+				C43AC0E12A3EFD82001070CD /* CancelSaveAlarm.swift in Sources */,
+				C4BE59292A26174700D3C489 /* TimeModel.swift in Sources */,
+				C4BE59592A2623C000D3C489 /* SplashScreenView.swift in Sources */,
 				C404E3102A25EB7800790C6F /* MainAlarmView.swift in Sources */,
 				C404E30E2A25EB7800790C6F /* AlarmApp.swift in Sources */,
+				C4BE595F2A26370F00D3C489 /* CoolTextView.swift in Sources */,
+				C4443E822A2668310054FFF2 /* MainGradient.swift in Sources */,
+				C43AC0DF2A3DCFCA001070CD /* ToBedWakeUpView.swift in Sources */,
+				C4BE595B2A2624FA00D3C489 /* FourCoolCircles.swift in Sources */,
 				C404E3372A25F74100790C6F /* Activity Constants.swift in Sources */,
 				C404E3342A25F74100790C6F /* Screen Constants.swift in Sources */,
+				C4443E842A2671770054FFF2 /* ButtonView.swift in Sources */,
 				C404E3292A25F14000790C6F /* GrayedTextView.swift in Sources */,
+				C4BE592B2A261BFF00D3C489 /* AlarmModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

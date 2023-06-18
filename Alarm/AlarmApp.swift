@@ -11,7 +11,8 @@ import SwiftUI
 struct AlarmApp: App {
     var body: some Scene {
         WindowGroup {
-            MainAlarmView()
+//            SplashScreenView()
+            AboutView()
         }
     }
 }
