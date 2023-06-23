@@ -17,7 +17,7 @@ struct ListOfTheAlarmsView: View {
                     ForEach(0 ..< alarmViewModels.count, id: \.self) { i in
                         let alarmModel = alarmViewModels[i]
                         NavigationLink(destination: {
-                            AddEditAlarmView(currentAlarmIndex: i, alarmModel: alarmModel)
+                            MainAddEditAlarmView(currentAlarmIndex: i, alarmModel: alarmModel)
                                 .tabItem { Label("Alarms", systemImage: "alarm.fill") }
                         }, label: {
                             AlarmRowView(model: alarmModel, i: i)
@@ -30,7 +30,7 @@ struct ListOfTheAlarmsView: View {
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         NavigationLink(destination: {
-                            AddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
+                            MainAddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
 
                         }, label: {
                             Text("+")

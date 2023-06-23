@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TimePicker: View {
     @Binding var time: Date
-    let scale: CGFloat
+    var scale: CGFloat = 1.0
 
     var body: some View {
         DatePicker("", selection: $time, displayedComponents: .hourAndMinute)

@@ -28,11 +28,18 @@
 		C43AC0E92A3F0B43001070CD /* SelectActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */; };
 		C43AC0EB2A3F231F001070CD /* ListOfTheAlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0EA2A3F231F001070CD /* ListOfTheAlarmsView.swift */; };
 		C43AC0ED2A3F6B44001070CD /* AlarmRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0EC2A3F6B44001070CD /* AlarmRowView.swift */; };
+		C43AC0EF2A3F6D3B001070CD /* AddEditCircularAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0EE2A3F6D3B001070CD /* AddEditCircularAlarmView.swift */; };
+		C43AC0F12A3F6E3B001070CD /* CircularTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0F02A3F6E3B001070CD /* CircularTimeView.swift */; };
+		C43AC0F42A3F7209001070CD /* CentralDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0F32A3F7209001070CD /* CentralDatePickerView.swift */; };
+		C43AC0F62A3F78EB001070CD /* TimeArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0F52A3F78EB001070CD /* TimeArcView.swift */; };
+		C43AC0F82A3F7CFC001070CD /* DisplayIconOnCircularTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0F72A3F7CFC001070CD /* DisplayIconOnCircularTimeView.swift */; };
+		C43AC0FA2A3F9AAC001070CD /* MainAddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43AC0F92A3F9AAC001070CD /* MainAddEditAlarmView.swift */; };
 		C4443E802A2666E70054FFF2 /* EnableNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E7F2A2666E70054FFF2 /* EnableNotifications.swift */; };
 		C4443E822A2668310054FFF2 /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E812A2668310054FFF2 /* MainGradient.swift */; };
 		C4443E842A2671770054FFF2 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E832A2671770054FFF2 /* ButtonView.swift */; };
 		C4443E862A2672D20054FFF2 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E852A2672D20054FFF2 /* AboutView.swift */; };
 		C4443E882A270EDD0054FFF2 /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */; };
+		C47462FE2A45C47F00DE9125 /* SelectActivityViewExpended.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47462FD2A45C47F00DE9125 /* SelectActivityViewExpended.swift */; };
 		C4BE59292A26174700D3C489 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE59282A26174700D3C489 /* TimeModel.swift */; };
 		C4BE592B2A261BFF00D3C489 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE592A2A261BFF00D3C489 /* AlarmModel.swift */; };
 		C4BE59422A261FA300D3C489 /* forest with cuckoo birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE592C2A261FA100D3C489 /* forest with cuckoo birds.mp3 */; };
@@ -87,11 +94,18 @@
 		C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityView.swift; sourceTree = "<group>"; };
 		C43AC0EA2A3F231F001070CD /* ListOfTheAlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfTheAlarmsView.swift; sourceTree = "<group>"; };
 		C43AC0EC2A3F6B44001070CD /* AlarmRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRowView.swift; sourceTree = "<group>"; };
+		C43AC0EE2A3F6D3B001070CD /* AddEditCircularAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCircularAlarmView.swift; sourceTree = "<group>"; };
+		C43AC0F02A3F6E3B001070CD /* CircularTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimeView.swift; sourceTree = "<group>"; };
+		C43AC0F32A3F7209001070CD /* CentralDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralDatePickerView.swift; sourceTree = "<group>"; };
+		C43AC0F52A3F78EB001070CD /* TimeArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeArcView.swift; sourceTree = "<group>"; };
+		C43AC0F72A3F7CFC001070CD /* DisplayIconOnCircularTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIconOnCircularTimeView.swift; sourceTree = "<group>"; };
+		C43AC0F92A3F9AAC001070CD /* MainAddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAddEditAlarmView.swift; sourceTree = "<group>"; };
 		C4443E7F2A2666E70054FFF2 /* EnableNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotifications.swift; sourceTree = "<group>"; };
 		C4443E812A2668310054FFF2 /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
 		C4443E832A2671770054FFF2 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		C4443E852A2672D20054FFF2 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
+		C47462FD2A45C47F00DE9125 /* SelectActivityViewExpended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityViewExpended.swift; sourceTree = "<group>"; };
 		C4BE59282A26174700D3C489 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 		C4BE592A2A261BFF00D3C489 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
 		C4BE592C2A261FA100D3C489 /* forest with cuckoo birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "forest with cuckoo birds.mp3"; sourceTree = "<group>"; };
@@ -275,7 +289,8 @@
 				C404E30F2A25EB7800790C6F /* MainAlarmView.swift */,
 				C4BE59582A2623C000D3C489 /* SplashScreenView.swift */,
 				C43AC0EA2A3F231F001070CD /* ListOfTheAlarmsView.swift */,
-				C43AC0DE2A3DCFCA001070CD /* ToBedWakeUpView.swift */,
+				C43AC0EE2A3F6D3B001070CD /* AddEditCircularAlarmView.swift */,
+				C43AC0F92A3F9AAC001070CD /* MainAddEditAlarmView.swift */,
 				C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */,
 				C4443E852A2672D20054FFF2 /* AboutView.swift */,
 			);
@@ -285,6 +300,7 @@
 		C404E3252A25F0F700790C6F /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				C43AC0DE2A3DCFCA001070CD /* ToBedWakeUpView.swift */,
 				C43AC0DC2A3C9C77001070CD /* YouDidItView.swift */,
 				C4443E7F2A2666E70054FFF2 /* EnableNotifications.swift */,
 			);
@@ -300,10 +316,12 @@
 				C404E3382A25F7DF00790C6F /* TimeOfDayIcon.swift */,
 				C43AC0E02A3EFD82001070CD /* CancelSaveAlarm.swift */,
 				C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */,
+				C47462FD2A45C47F00DE9125 /* SelectActivityViewExpended.swift */,
 				C43AC0EC2A3F6B44001070CD /* AlarmRowView.swift */,
 				C43AC0E22A3EFFBA001070CD /* AlarmToggleView.swift */,
 				C43AC0E42A3F002A001070CD /* TheToggleView.swift */,
 				C43AC0E62A3F0892001070CD /* TimePicker.swift */,
+				C43AC0F22A3F6F0D001070CD /* CircularTimeView */,
 				C4BE595A2A2624FA00D3C489 /* FourCoolCircles.swift */,
 				C4443E832A2671770054FFF2 /* ButtonView.swift */,
 			);
@@ -315,6 +333,17 @@
 			children = (
 			);
 			path = UnusedViews;
+			sourceTree = "<group>";
+		};
+		C43AC0F22A3F6F0D001070CD /* CircularTimeView */ = {
+			isa = PBXGroup;
+			children = (
+				C43AC0F02A3F6E3B001070CD /* CircularTimeView.swift */,
+				C43AC0F32A3F7209001070CD /* CentralDatePickerView.swift */,
+				C43AC0F52A3F78EB001070CD /* TimeArcView.swift */,
+				C43AC0F72A3F7CFC001070CD /* DisplayIconOnCircularTimeView.swift */,
+			);
+			path = CircularTimeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,22 +438,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47462FE2A45C47F00DE9125 /* SelectActivityViewExpended.swift in Sources */,
+				C43AC0F82A3F7CFC001070CD /* DisplayIconOnCircularTimeView.swift in Sources */,
 				C43AC0EB2A3F231F001070CD /* ListOfTheAlarmsView.swift in Sources */,
 				C4443E802A2666E70054FFF2 /* EnableNotifications.swift in Sources */,
 				C4BE594C2A261FA300D3C489 /* Play Sound.swift in Sources */,
 				C404E3362A25F74100790C6F /* Image Constants.swift in Sources */,
 				C43AC0DD2A3C9C77001070CD /* YouDidItView.swift in Sources */,
 				C404E3392A25F7DF00790C6F /* TimeOfDayIcon.swift in Sources */,
+				C43AC0FA2A3F9AAC001070CD /* MainAddEditAlarmView.swift in Sources */,
 				C4443E862A2672D20054FFF2 /* AboutView.swift in Sources */,
 				C43AC0ED2A3F6B44001070CD /* AlarmRowView.swift in Sources */,
 				C43AC0E72A3F0892001070CD /* TimePicker.swift in Sources */,
 				C43AC0E52A3F002A001070CD /* TheToggleView.swift in Sources */,
+				C43AC0EF2A3F6D3B001070CD /* AddEditCircularAlarmView.swift in Sources */,
 				C4BE594A2A261FA300D3C489 /* Sound Constants.swift in Sources */,
 				C404E33B2A25F83300790C6F /* TimeAndDateSupport.swift in Sources */,
 				C43AC0E32A3EFFBA001070CD /* AlarmToggleView.swift in Sources */,
 				C43AC0E92A3F0B43001070CD /* SelectActivityView.swift in Sources */,
 				C4443E882A270EDD0054FFF2 /* AddEditAlarmView.swift in Sources */,
+				C43AC0F12A3F6E3B001070CD /* CircularTimeView.swift in Sources */,
 				C404E3352A25F74100790C6F /* Color Constants.swift in Sources */,
+				C43AC0F42A3F7209001070CD /* CentralDatePickerView.swift in Sources */,
 				C43AC0E12A3EFD82001070CD /* CancelSaveAlarm.swift in Sources */,
 				C4BE59292A26174700D3C489 /* TimeModel.swift in Sources */,
 				C4BE59592A2623C000D3C489 /* SplashScreenView.swift in Sources */,
@@ -434,6 +469,7 @@
 				C4443E822A2668310054FFF2 /* MainGradient.swift in Sources */,
 				C43AC0DF2A3DCFCA001070CD /* ToBedWakeUpView.swift in Sources */,
 				C4BE595B2A2624FA00D3C489 /* FourCoolCircles.swift in Sources */,
+				C43AC0F62A3F78EB001070CD /* TimeArcView.swift in Sources */,
 				C404E3372A25F74100790C6F /* Activity Constants.swift in Sources */,
 				C404E3342A25F74100790C6F /* Screen Constants.swift in Sources */,
 				C4443E842A2671770054FFF2 /* ButtonView.swift in Sources */,
