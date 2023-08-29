@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SelectActivityViewExpended: View {
+struct SelectActivityViewExpanded: View {
     @Binding var currentColorIndex: Int
     @Binding var currentActivity: String
 
@@ -75,9 +75,9 @@ struct SelectActivityViewExpended: View {
     }
 }
 
-struct SelectActivityViewExpended_Previews: PreviewProvider {
+struct SelectActivityViewExpanded_Previews: PreviewProvider {
     static var previews: some View {
-        SelectActivityViewExpended(currentColorIndex: .constant(0), currentActivity: .constant(activities[0]))
+        SelectActivityViewExpanded(currentColorIndex: .constant(0), currentActivity: .constant(activities[0]))
             .padding(.horizontal)
     }
 }

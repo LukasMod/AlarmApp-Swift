@@ -1,31 +1,23 @@
-//
-//  CircularTimeView.swift
-//  Alarm
-//
-//  Created by Łukasz Modzelewski on 18/06/2023.
-//
 
 import SwiftUI
 
 struct CircularTimeView: View {
     let currentAlarmIndex: Int?
-    @State var alarmModel: AlarmModel
-
+    @Binding var alarmModel: AlarmModel
+    
     let size: CGFloat
+    
+    var startTime: Date {
+        alarmModel.start
+    }
 
     var endTime: Date {
         alarmModel.end
     }
 
-    var startTime: Date {
-        alarmModel.start
-    }
-
     var percentDifference: CGFloat {
         let value = dateToPercent(date: endTime) - dateToPercent(date: startTime)
-
-//        return value // TODO:
-
+        
         return value >= 0 ? value : 1 + value
     }
 
@@ -40,30 +32,54 @@ struct CircularTimeView: View {
     var rotateCircleOffset: CGFloat {
         360 * startDateToPercent
     }
-
+    
     var body: some View {
         ZStack {
-            CentralDatePickerView(size: size, alarmModel: $alarmModel)
-
+            CentralDatePickerView(size: size,
+                                  alarmModel: $alarmModel)
+            
             // Progression - black curve
-            TimeArcView(percentDifference: percentDifference, strokeStyle: StrokeStyle(lineWidth: 20, lineCap: .round), size: size, rotateCircleOffset: rotateCircleOffset, color: .black)
-
-            // Progression - gray ticks
-            TimeArcView(percentDifference: percentDifference, strokeStyle: StrokeStyle(lineWidth: 15, dash: [1, 2]), size: size, rotateCircleOffset: rotateCircleOffset, color: .gray)
-
+            TimeArcView(
+                percentDifference: percentDifference,
+                strokeStyle: StrokeStyle(lineWidth: 20, lineCap: .round, lineJoin: .round),
+                size: size,
+                rotateCircleOffset: rotateCircleOffset,
+                color: .black)
+            
+            // Progression - Gray ticks
+            TimeArcView(
+                percentDifference: percentDifference,
+                strokeStyle: StrokeStyle(lineWidth: 15,
+                                         dash: [1, 2]),
+                size: size,
+                rotateCircleOffset: rotateCircleOffset,
+                color: .gray)
+            
             // First icon
-            DisplayIconOnCircularTimeView(time: startTime, size: size, percent: startDateToPercent)
+            DisplayIconOnCircularTimeView(
+                time: startTime,
+                size: size,
+                percent: startDateToPercent)
+            
             // Second icon
-            DisplayIconOnCircularTimeView(time: endTime, size: size, percent: endDateToPercent)
+            DisplayIconOnCircularTimeView(
+                time: endTime,
+                size: size,
+                percent: endDateToPercent)
         }
     }
 }
 
 struct CircularTimeView_Previews: PreviewProvider {
     static var previews: some View {
-        VStack(spacing: 60) {
-            CircularTimeView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm(), size: screenWidth / 2)
-//            CircularTimeView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm(), size: screenWidth / 3)
+//        ScrollView {
+        VStack(spacing: 50) {
+            CircularTimeView(currentAlarmIndex: nil, alarmModel: .constant(.DefaultAlarm()), size: screenWidth / 2)
+                
+//                CircularTimeView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm(), size: screenWidth / 4)
+//
+//                CircularTimeView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm(), size: screenWidth * 0.75)
         }
     }
+//    }
 }

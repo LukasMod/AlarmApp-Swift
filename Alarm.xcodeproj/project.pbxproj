@@ -39,7 +39,7 @@
 		C4443E842A2671770054FFF2 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E832A2671770054FFF2 /* ButtonView.swift */; };
 		C4443E862A2672D20054FFF2 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E852A2672D20054FFF2 /* AboutView.swift */; };
 		C4443E882A270EDD0054FFF2 /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */; };
-		C47462FE2A45C47F00DE9125 /* SelectActivityViewExpended.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47462FD2A45C47F00DE9125 /* SelectActivityViewExpended.swift */; };
+		C47462FE2A45C47F00DE9125 /* SelectActivityViewExpanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47462FD2A45C47F00DE9125 /* SelectActivityViewExpanded.swift */; };
 		C47463002A45CAB000DE9125 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47462FF2A45CAB000DE9125 /* LocalNotificationManager.swift */; };
 		C4A8DB992A9258F700F31DB3 /* SoundMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8DB982A9258F700F31DB3 /* SoundMenuView.swift */; };
 		C4BE59292A26174700D3C489 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE59282A26174700D3C489 /* TimeModel.swift */; };
@@ -69,6 +69,9 @@
 		C4BE59592A2623C000D3C489 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE59582A2623C000D3C489 /* SplashScreenView.swift */; };
 		C4BE595B2A2624FA00D3C489 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE595A2A2624FA00D3C489 /* FourCoolCircles.swift */; };
 		C4BE595F2A26370F00D3C489 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE595E2A26370F00D3C489 /* CoolTextView.swift */; };
+		C4FFA7682A9DB3E30085BC3C /* ChooseAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FFA7672A9DB3E30085BC3C /* ChooseAlarmView.swift */; };
+		C4FFA76A2A9DB4150085BC3C /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FFA7692A9DB4150085BC3C /* SelectView.swift */; };
+		C4FFA76C2A9DB42E0085BC3C /* ImageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FFA76B2A9DB42E0085BC3C /* ImageDisplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,7 +110,7 @@
 		C4443E832A2671770054FFF2 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		C4443E852A2672D20054FFF2 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
-		C47462FD2A45C47F00DE9125 /* SelectActivityViewExpended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityViewExpended.swift; sourceTree = "<group>"; };
+		C47462FD2A45C47F00DE9125 /* SelectActivityViewExpanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityViewExpanded.swift; sourceTree = "<group>"; };
 		C47462FF2A45CAB000DE9125 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 		C4A8DB982A9258F700F31DB3 /* SoundMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMenuView.swift; sourceTree = "<group>"; };
 		C4BE59282A26174700D3C489 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
@@ -139,6 +142,9 @@
 		C4BE595C2A2636F200D3C489 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		C4BE595D2A2636F200D3C489 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		C4BE595E2A26370F00D3C489 /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
+		C4FFA7672A9DB3E30085BC3C /* ChooseAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAlarmView.swift; sourceTree = "<group>"; };
+		C4FFA7692A9DB4150085BC3C /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		C4FFA76B2A9DB42E0085BC3C /* ImageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +304,7 @@
 				C43AC0F92A3F9AAC001070CD /* MainAddEditAlarmView.swift */,
 				C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */,
 				C4443E852A2672D20054FFF2 /* AboutView.swift */,
+				C4FFA7672A9DB3E30085BC3C /* ChooseAlarmView.swift */,
 			);
 			path = MainViews;
 			sourceTree = "<group>";
@@ -322,9 +329,11 @@
 				C404E3382A25F7DF00790C6F /* TimeOfDayIcon.swift */,
 				C43AC0E02A3EFD82001070CD /* CancelSaveAlarm.swift */,
 				C43AC0E82A3F0B43001070CD /* SelectActivityView.swift */,
-				C47462FD2A45C47F00DE9125 /* SelectActivityViewExpended.swift */,
+				C47462FD2A45C47F00DE9125 /* SelectActivityViewExpanded.swift */,
 				C43AC0EC2A3F6B44001070CD /* AlarmRowView.swift */,
+				C4FFA7692A9DB4150085BC3C /* SelectView.swift */,
 				C43AC0E22A3EFFBA001070CD /* AlarmToggleView.swift */,
+				C4FFA76B2A9DB42E0085BC3C /* ImageDisplayView.swift */,
 				C43AC0E42A3F002A001070CD /* TheToggleView.swift */,
 				C43AC0E62A3F0892001070CD /* TimePicker.swift */,
 				C43AC0F22A3F6F0D001070CD /* CircularTimeView */,
@@ -445,7 +454,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C47463002A45CAB000DE9125 /* LocalNotificationManager.swift in Sources */,
-				C47462FE2A45C47F00DE9125 /* SelectActivityViewExpended.swift in Sources */,
+				C4FFA7682A9DB3E30085BC3C /* ChooseAlarmView.swift in Sources */,
+				C47462FE2A45C47F00DE9125 /* SelectActivityViewExpanded.swift in Sources */,
 				C43AC0F82A3F7CFC001070CD /* DisplayIconOnCircularTimeView.swift in Sources */,
 				C43AC0EB2A3F231F001070CD /* ListOfTheAlarmsView.swift in Sources */,
 				C4443E802A2666E70054FFF2 /* EnableNotifications.swift in Sources */,
@@ -464,7 +474,9 @@
 				C404E33B2A25F83300790C6F /* TimeAndDateSupport.swift in Sources */,
 				C43AC0E32A3EFFBA001070CD /* AlarmToggleView.swift in Sources */,
 				C43AC0E92A3F0B43001070CD /* SelectActivityView.swift in Sources */,
+				C4FFA76C2A9DB42E0085BC3C /* ImageDisplayView.swift in Sources */,
 				C4443E882A270EDD0054FFF2 /* AddEditAlarmView.swift in Sources */,
+				C4FFA76A2A9DB4150085BC3C /* SelectView.swift in Sources */,
 				C43AC0F12A3F6E3B001070CD /* CircularTimeView.swift in Sources */,
 				C404E3352A25F74100790C6F /* Color Constants.swift in Sources */,
 				C43AC0F42A3F7209001070CD /* CentralDatePickerView.swift in Sources */,

@@ -4,12 +4,17 @@ import SwiftUI
 struct MainAddEditAlarmView: View {
     let currentAlarmIndex: Int?
     @State var alarmModel: AlarmModel
-    @State private var selectedTab = "One"
 
+    @State private var selectedTab = "One"
     var body: some View {
         TabView(selection: $selectedTab) {
-            AddEditAlarmView(currentAlarmIndex: currentAlarmIndex).tag("One")
-            AddEditCircularAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: alarmModel).tag("Two")
+            AddEditAlarmView(currentAlarmIndex: currentAlarmIndex,
+                             alarmModel: alarmModel)
+                .tag("One")
+
+            AddEditCircularAlarmView(currentAlarmIndex: currentAlarmIndex,
+                                     alarmModel: alarmModel)
+                .tag("Two")
         }
         .onAppear {
             UIPageControl
@@ -21,7 +26,7 @@ struct MainAddEditAlarmView: View {
     }
 }
 
-struct MainAddEditView_Previews: PreviewProvider {
+struct MainAddEditAlarmView_Previews: PreviewProvider {
     static var previews: some View {
         MainAddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
     }
