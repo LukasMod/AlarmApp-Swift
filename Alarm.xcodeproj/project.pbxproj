@@ -40,6 +40,8 @@
 		C4443E862A2672D20054FFF2 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E852A2672D20054FFF2 /* AboutView.swift */; };
 		C4443E882A270EDD0054FFF2 /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */; };
 		C47462FE2A45C47F00DE9125 /* SelectActivityViewExpended.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47462FD2A45C47F00DE9125 /* SelectActivityViewExpended.swift */; };
+		C47463002A45CAB000DE9125 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47462FF2A45CAB000DE9125 /* LocalNotificationManager.swift */; };
+		C4A8DB992A9258F700F31DB3 /* SoundMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8DB982A9258F700F31DB3 /* SoundMenuView.swift */; };
 		C4BE59292A26174700D3C489 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE59282A26174700D3C489 /* TimeModel.swift */; };
 		C4BE592B2A261BFF00D3C489 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE592A2A261BFF00D3C489 /* AlarmModel.swift */; };
 		C4BE59422A261FA300D3C489 /* forest with cuckoo birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4BE592C2A261FA100D3C489 /* forest with cuckoo birds.mp3 */; };
@@ -106,6 +108,8 @@
 		C4443E852A2672D20054FFF2 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C4443E872A270EDD0054FFF2 /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
 		C47462FD2A45C47F00DE9125 /* SelectActivityViewExpended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityViewExpended.swift; sourceTree = "<group>"; };
+		C47462FF2A45CAB000DE9125 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		C4A8DB982A9258F700F31DB3 /* SoundMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMenuView.swift; sourceTree = "<group>"; };
 		C4BE59282A26174700D3C489 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 		C4BE592A2A261BFF00D3C489 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
 		C4BE592C2A261FA100D3C489 /* forest with cuckoo birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "forest with cuckoo birds.mp3"; sourceTree = "<group>"; };
@@ -224,6 +228,7 @@
 		C404E31D2A25F0AB00790C6F /* Local Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				C47462FF2A45CAB000DE9125 /* LocalNotificationManager.swift */,
 			);
 			path = "Local Notifications";
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				C43AC0DE2A3DCFCA001070CD /* ToBedWakeUpView.swift */,
+				C4A8DB982A9258F700F31DB3 /* SoundMenuView.swift */,
 				C43AC0DC2A3C9C77001070CD /* YouDidItView.swift */,
 				C4443E7F2A2666E70054FFF2 /* EnableNotifications.swift */,
 			);
@@ -438,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47463002A45CAB000DE9125 /* LocalNotificationManager.swift in Sources */,
 				C47462FE2A45C47F00DE9125 /* SelectActivityViewExpended.swift in Sources */,
 				C43AC0F82A3F7CFC001070CD /* DisplayIconOnCircularTimeView.swift in Sources */,
 				C43AC0EB2A3F231F001070CD /* ListOfTheAlarmsView.swift in Sources */,
@@ -447,6 +454,7 @@
 				C43AC0DD2A3C9C77001070CD /* YouDidItView.swift in Sources */,
 				C404E3392A25F7DF00790C6F /* TimeOfDayIcon.swift in Sources */,
 				C43AC0FA2A3F9AAC001070CD /* MainAddEditAlarmView.swift in Sources */,
+				C4A8DB992A9258F700F31DB3 /* SoundMenuView.swift in Sources */,
 				C4443E862A2672D20054FFF2 /* AboutView.swift in Sources */,
 				C43AC0ED2A3F6B44001070CD /* AlarmRowView.swift in Sources */,
 				C43AC0E72A3F0892001070CD /* TimePicker.swift in Sources */,

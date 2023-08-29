@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct AlarmModel: Identifiable {
+struct AlarmModel: Identifiable, Codable {
     let id = UUID().uuidString
     
     let title: String
@@ -32,6 +32,10 @@ struct AlarmModel: Identifiable {
         DateToTimeModel(date: end)
     }
     
+    var endDateComponents: DateComponents {
+        return Calendar.current.dateComponents([.hour, .minute], from: self.end)
+    }
+    
     static func DefaultAlarm() -> AlarmModel {
         AlarmModel(
             title: "Activity completed",
@@ -40,7 +44,7 @@ struct AlarmModel: Identifiable {
             sound: .lagrima,
             alarmEnabled: false,
             start: Date(),
-            end: Date(),
+            end: addHourToDate(date: Date(), numHours: 2, numMinutes: 30),
 //            end: addHourToDate(date: Date(), numHours: 12, numMinutes: 0),
             activity: activities[0],
             colorIndex: 0)

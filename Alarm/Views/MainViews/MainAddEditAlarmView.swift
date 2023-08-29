@@ -1,9 +1,3 @@
-//
-//  MainAddEditView.swift
-//  Alarm
-//
-//  Created by Łukasz Modzelewski on 18/06/2023.
-//
 
 import SwiftUI
 
@@ -14,8 +8,8 @@ struct MainAddEditAlarmView: View {
 
     var body: some View {
         TabView(selection: $selectedTab) {
-            AddEditAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: alarmModel)
-            AddEditCircularAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: alarmModel)
+            AddEditAlarmView(currentAlarmIndex: currentAlarmIndex).tag("One")
+            AddEditCircularAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: alarmModel).tag("Two")
         }
         .onAppear {
             UIPageControl

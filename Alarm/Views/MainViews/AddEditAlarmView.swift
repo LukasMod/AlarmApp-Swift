@@ -1,15 +1,9 @@
-//
-//  AddEditAlarmView.swift
-//  Alarm
-//
-//  Created by Łukasz Modzelewski on 31/05/2023.
-//
-
 import SwiftUI
 
 struct AddEditAlarmView: View {
     let currentAlarmIndex: Int?
-    @State var alarmModel: AlarmModel
+    @EnvironmentObject var lnManager: LocalNotificationManager
+
     @State private var showYouDidItView = true
 
     var body: some View {
@@ -23,7 +17,13 @@ struct AddEditAlarmView: View {
                     YouDidItView()
                 }
 
-                ToBedWakeUpView(currentAlarmIndex: currentAlarmIndex, alarmModel: alarmModel)
+                if let currentAlarmIndex = currentAlarmIndex {
+                    ToBedWakeUpView(currentAlarmIndex: currentAlarmIndex, alarmModel: lnManager.alarmViewModels[currentAlarmIndex])
+                } else {
+                    ToBedWakeUpView(currentAlarmIndex: currentAlarmIndex, alarmModel: .DefaultAlarm())
+                }
+                
+              
             }
         }
         .onAppear {
@@ -39,6 +39,7 @@ struct AddEditAlarmView: View {
 
 struct AddEditAlarmView_Previews: PreviewProvider {
     static var previews: some View {
-        AddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
+        AddEditAlarmView(currentAlarmIndex: nil)
+            .environmentObject(LocalNotificationManager())
     }
 }

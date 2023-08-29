@@ -1,55 +1,89 @@
-//
-//  ListOfTheAlarmsView.swift
-//  Alarm
-//
-//  Created by Łukasz Modzelewski on 18/06/2023.
-//
-
 import SwiftUI
 
 struct ListOfTheAlarmsView: View {
-    var alarmViewModels: [AlarmModel]
+    @EnvironmentObject var lnManager: LocalNotificationManager
+
+    @State var isActive = false
+    @State var currentIndex: Int? = nil
 
     var body: some View {
         NavigationStack {
             ZStack {
                 List {
-                    ForEach(0 ..< alarmViewModels.count, id: \.self) { i in
-                        let alarmModel = alarmViewModels[i]
-                        NavigationLink(destination: {
-                            MainAddEditAlarmView(currentAlarmIndex: i, alarmModel: alarmModel)
-                                .tabItem { Label("Alarms", systemImage: "alarm.fill") }
-                        }, label: {
-                            AlarmRowView(model: alarmModel, i: i)
+                    ForEach(lnManager.alarmViewModels.indices, id: \.self) { i in
 
+                        Button(action: {
+                            currentIndex = i
+                            isActive.toggle()
+                        }, label: {
+                            AlarmRowView(model: lnManager.alarmViewModels[i], i: i)
+                                .padding(.vertical)
                         })
+
+//                        NavigationLink(destination: {
+//                            MainAddEditAlarmView(currentAlarmIndex: i, alarmModel: lnManager.alarmViewModels[i])
+//                                .tabItem { Label("Alarms", systemImage: "alarm.fill") }
+//                        }, label: {
+//                            AlarmRowView(model: lnManager.alarmViewModels[i], i: i)
+//
+//                        })
                     }
+                    .onDelete(perform: deleteMe)
                 }
 
             }.navigationTitle("Alarm list")
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        NavigationLink(destination: {
-                            MainAddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
+                .sheet(
+                    isPresented: $isActive,
+                    onDismiss: {})
+            {
+                // Edit the currentIndex alarm
 
-                        }, label: {
-                            Text("+")
-                                .font(.largeTitle)
-                                .fontWeight(.semibold)
-                                .foregroundColor(black)
+                AddEditAlarmView(currentAlarmIndex: currentIndex)
+//                        ChooseAlarmView(currentAlarmIndex: $currentIndex, addEditViewType: addEditViewType)
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink(destination: {
+                        MainAddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
 
-                        })
-                    }
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        EditButton()
-                    }
+                    }, label: {
+                        Text("+")
+                            .font(.largeTitle)
+                            .fontWeight(.semibold)
+                            .foregroundColor(black)
+
+                    })
+//                        Button(action: {
+//                            isActive.toggle()
+//                        }, label: {
+//                            Text("+")
+//                                .font(.largeTitle)
+//                                .fontWeight(.semibold)
+//                                .foregroundColor(black)
+//                        })
                 }
+                ToolbarItem(placement: .navigationBarLeading) {
+                    EditButton()
+                }
+            }
         }
+    }
+
+    func deleteMe(offsets: IndexSet) {
+        // Remove from pending alarms
+        for index in offsets {
+            // TODO: remove request for given id
+            lnManager.removeRequest(id: lnManager.alarmViewModels[index].id)
+        }
+
+        // Removing from alarmViewModels
+        lnManager.alarmViewModels.remove(atOffsets: offsets)
     }
 }
 
 struct ListOfTheAlarmsView_Previews: PreviewProvider {
     static var previews: some View {
-        ListOfTheAlarmsView(alarmViewModels: AlarmModel.DummyAlarmData())
+        ListOfTheAlarmsView()
+            .environmentObject(LocalNotificationManager())
     }
 }
